@@ -1,0 +1,18 @@
+1. Open Postman and make sure you are in the "Request" tab.
+
+2. Set the request type to "POST".
+
+3. Enter the URL where your PHP script is hosted. If you are working locally, it might be something like http://localhost/your-script.php.
+
+4. Go to the "Body" tab.
+
+5. Select "raw" and choose "JSON (application/json)" from the dropdown.
+
+6. In the body, enter your JSON data. For example:
+
+
+{
+  "product_id": 123,
+  "user_id": 456,
+  "review_text": "This is a great product!"
+}
